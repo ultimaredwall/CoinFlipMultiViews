@@ -12,6 +12,9 @@
 		2B1376FC1C038F1F008EB870 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1376FA1C038F1F008EB870 /* Main.storyboard */; };
 		2B1376FE1C038F1F008EB870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B1376FD1C038F1F008EB870 /* Assets.xcassets */; };
 		2B1377011C038F1F008EB870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1376FF1C038F1F008EB870 /* LaunchScreen.storyboard */; };
+		2B1377091C0395B7008EB870 /* DecisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1377081C0395B7008EB870 /* DecisionViewController.swift */; };
+		2B13770B1C039D6D008EB870 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B13770A1C039D6D008EB870 /* ResultsViewController.swift */; };
+		2B13770D1C041BCF008EB870 /* HeadsOrTailsOutcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B13770C1C041BCF008EB870 /* HeadsOrTailsOutcome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		2B1376FD1C038F1F008EB870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B1377001C038F1F008EB870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B1377021C038F1F008EB870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B1377081C0395B7008EB870 /* DecisionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecisionViewController.swift; sourceTree = "<group>"; };
+		2B13770A1C039D6D008EB870 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		2B13770C1C041BCF008EB870 /* HeadsOrTailsOutcome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadsOrTailsOutcome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				2B1376FD1C038F1F008EB870 /* Assets.xcassets */,
 				2B1376FF1C038F1F008EB870 /* LaunchScreen.storyboard */,
 				2B1377021C038F1F008EB870 /* Info.plist */,
+				2B1377081C0395B7008EB870 /* DecisionViewController.swift */,
+				2B13770A1C039D6D008EB870 /* ResultsViewController.swift */,
+				2B13770C1C041BCF008EB870 /* HeadsOrTailsOutcome.swift */,
 			);
 			path = "Coin Flip";
 			sourceTree = "<group>";
@@ -137,7 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B1376F91C038F1F008EB870 /* ViewController.swift in Sources */,
+				2B1377091C0395B7008EB870 /* DecisionViewController.swift in Sources */,
+				2B13770D1C041BCF008EB870 /* HeadsOrTailsOutcome.swift in Sources */,
 				2B1376F71C038F1F008EB870 /* AppDelegate.swift in Sources */,
+				2B13770B1C039D6D008EB870 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,16 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var viewOutlet: UIView!
+    
+    @IBOutlet weak var tapAnywhereLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.tapAnywhereLabel.alpha = 0;
+        [UIView .animateKeyframesWithDuration(1.0, delay: 1.0, options: UIViewKeyframeAnimationOptions.Repeat, animations: {self.tapAnywhereLabel.alpha=1}, completion: nil)]
+
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 
